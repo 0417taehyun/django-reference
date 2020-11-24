@@ -39,4 +39,5 @@
         },
     }
     ```
+3. Migration 관련하여 문제가 발생할 경우 `reference_test` > `migrations` 디렉토리 내에 있는 `0001_initial.py`을 삭제한 이후 다시 `python manage.py makemigrations reference_test`와 `python manage.py migrate`을 진행해주세요.
 
